@@ -1,7 +1,6 @@
 CHANGELOG.md
 MANIFEST.in
 README.md
-setup.cfg
 setup.py
 test.ini
 test_subclass.ini
@@ -10,6 +9,7 @@ ckanext/scheming/__init__.py
 ckanext/scheming/camel_photos.json
 ckanext/scheming/ckan_dataset.json
 ckanext/scheming/codelist.json
+ckanext/scheming/commands.py
 ckanext/scheming/converters.py
 ckanext/scheming/custom_group_with_status.json
 ckanext/scheming/custom_org_with_address.json
@@ -22,12 +22,16 @@ ckanext/scheming/org_with_dept_id.json
 ckanext/scheming/plugins.py
 ckanext/scheming/presets.json
 ckanext/scheming/validation.py
+ckanext/scheming/validators.py
+ckanext/scheming/templates/scheming/display_snippets/br_multiple_choice.html
 ckanext/scheming/templates/scheming/display_snippets/date.html
 ckanext/scheming/templates/scheming/display_snippets/datetime.html
 ckanext/scheming/templates/scheming/display_snippets/datetime_tz.html
 ckanext/scheming/templates/scheming/display_snippets/email.html
+ckanext/scheming/templates/scheming/display_snippets/fluent_tags.html
 ckanext/scheming/templates/scheming/display_snippets/json.html
 ckanext/scheming/templates/scheming/display_snippets/link.html
+ckanext/scheming/templates/scheming/display_snippets/list_inline.html
 ckanext/scheming/templates/scheming/display_snippets/multiple_choice.html
 ckanext/scheming/templates/scheming/display_snippets/select.html
 ckanext/scheming/templates/scheming/display_snippets/text.html
@@ -39,11 +43,13 @@ ckanext/scheming/templates/scheming/form_snippets/help_text.html
 ckanext/scheming/templates/scheming/form_snippets/json.html
 ckanext/scheming/templates/scheming/form_snippets/large_text.html
 ckanext/scheming/templates/scheming/form_snippets/license.html
+ckanext/scheming/templates/scheming/form_snippets/license2.html
+ckanext/scheming/templates/scheming/form_snippets/markdown-fluent.html
 ckanext/scheming/templates/scheming/form_snippets/markdown.html
 ckanext/scheming/templates/scheming/form_snippets/multiple_checkbox.html
 ckanext/scheming/templates/scheming/form_snippets/multiple_select.html
 ckanext/scheming/templates/scheming/form_snippets/organization.html
-ckanext/scheming/templates/scheming/form_snippets/organization_upload.html
+ckanext/scheming/templates/scheming/form_snippets/portal_release_date.html
 ckanext/scheming/templates/scheming/form_snippets/select.html
 ckanext/scheming/templates/scheming/form_snippets/slug.html
 ckanext/scheming/templates/scheming/form_snippets/text.html
@@ -62,8 +68,6 @@ ckanext/scheming/templates/scheming/snippets/display_field.html
 ckanext/scheming/templates/scheming/snippets/errors.html
 ckanext/scheming/templates/scheming/snippets/form_field.html
 ckanext/scheming/tests/__init__.py
-ckanext/scheming/tests/ckan_setup.py
-ckanext/scheming/tests/fixtures.py
 ckanext/scheming/tests/mock_pylons_request.py
 ckanext/scheming/tests/plugins.py
 ckanext/scheming/tests/test_dataset_display.py

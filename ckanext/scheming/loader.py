@@ -7,13 +7,13 @@ import json
 def load(f):
     if is_yaml(f.name):
         import yaml
-        return yaml.safe_load(f)
+        return yaml.load(f)
     return json.load(f)
 
 def loads(s, url):
     if is_yaml(url):
         import yaml
-        return yaml.safe_load(s)
+        return yaml.load(s)
     return json.loads(s)
 
 def is_yaml(n):

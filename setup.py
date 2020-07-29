@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import sys, os
 
-version = '2.0.0'
+version = '1.2.0'
 
 setup(
     name='ckanext-scheming',
@@ -35,5 +35,7 @@ setup(
     scheming_test_subclass=ckanext.scheming.tests.plugins:SchemingTestSubclass
     scheming_test_plugin=ckanext.scheming.tests.plugins:SchemingTestSchemaPlugin
 
+    [paste.paster_command]
+    scheming=ckanext.scheming.commands:SchemingCommand
     """,
 )

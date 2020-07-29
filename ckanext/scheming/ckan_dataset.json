@@ -84,7 +84,8 @@
     {
       "field_name": "diids_no",
       "label": "DIIDS No",
-      "required": "true"
+      "required": "false",
+      "validators": "ignore_missing"
     },
     {
       "field_name": "directorate",

@@ -1,4 +1,15 @@
 ckanapi
 ckantoolkit>=0.0.2
 pytz
-six
+lxml
+geojson==2.3.0
+geomet==0.2.0.post2
+docopt
+pyyaml
+ckantoolkit
+babel
+rdflib-jsonld
+backports.ssl-match-hostname>=3.5.0.1
+azure-storage==0.33.0
+configparser>=3.5.0
+nltk>=3.4.4
