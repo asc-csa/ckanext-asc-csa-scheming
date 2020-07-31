@@ -1,5 +1,4 @@
 ckanapi
-ckantoolkit>=0.0.2
 pytz
 lxml
 geojson==2.3.0
