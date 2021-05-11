@@ -170,6 +170,8 @@ class _SchemingMixin(object):
             self._schema_urls,
             self.SCHEMA_TYPE_FIELD
         )
+        # print('SCHEMA OPTION')
+        # print(self._schemas)
         self._expanded_schemas = _expand_schemas(self._schemas)
 
     def is_fallback(self):
@@ -482,7 +484,7 @@ def _expand_schemas(schemas):
     Return a new dict of schemas with all field presets expanded.
     """
     out = {}
-    for name, original in schemas.iteritems():
+    for name, original in schemas.items():
         s = dict(original)
         for fname in ('fields', 'dataset_fields', 'resource_fields'):
             if fname not in s:
