@@ -51,8 +51,8 @@ def scheming_language_text(text, prefer_lang=None):
         l, v = sorted(text.items())[0]
         return v
 
-    if isinstance(text, str):
-        text = text.decode('utf-8')
+    # if isinstance(text, str):
+    #     text = text.decode('utf-8')
     t = _(text)
     return t
 
