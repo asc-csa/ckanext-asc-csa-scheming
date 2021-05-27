@@ -22,8 +22,8 @@ from ckantoolkit import (
     add_template_directory,
 )
 
-from paste.reloader import watch_file
-from paste.deploy.converters import asbool
+# from paste.reloader import watch_file
+# from paste.deploy.converters import asbool
 
 from ckanext.scheming import helpers
 from ckanext.scheming import loader
@@ -163,7 +163,7 @@ class _SchemingMixin(object):
         self._add_template_directory(config)
         self._load_presets(config)
 
-        self._is_fallback = asbool(config.get(self.FALLBACK_OPTION, False))
+        self._is_fallback = (config.get(self.FALLBACK_OPTION, False))
 
         self._schema_urls = config.get(self.SCHEMA_OPTION, "").split()
         self._schemas = _load_schemas(
@@ -389,7 +389,7 @@ def _load_schema_module_path(url):
         return
     p = os.path.join(os.path.dirname(inspect.getfile(m)), file_name)
     if os.path.exists(p):
-        watch_file(p)
+        # watch_file(p)
         return loader.load(open(p))
 
 
