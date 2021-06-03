@@ -35,6 +35,17 @@ from ckantoolkit import (
     missing,
     check_ckan_version,
 )
+from ckanext.scheming.validation import (
+    validators_from_string,
+    scheming_choices,
+    scheming_required,
+    scheming_multiple_choice,
+    scheming_multiple_choice_output,
+    scheming_isodatetime,
+    scheming_isodatetime_tz,
+    scheming_valid_json_object,
+    scheming_load_json,
+)
 
 from ckanext.scheming import validators
 
@@ -97,17 +108,19 @@ class _SchemingMixin(object):
         validators_dict = dict(validation.all_validators)
         validators_dict.update(
             {
-            'canada_validate_generate_uuid':
-                validators.canada_validate_generate_uuid,
-            'canada_tags': validators.canada_tags,
-            'geojson_validator': validators.geojson_validator,
-            'email_validator': validators.email_validator,
-            'canada_copy_from_org_name':
-                validators.canada_copy_from_org_name,
-            'canada_non_related_required':
-                validators.canada_non_related_required,
-            'if_empty_set_to':
-                validators.if_empty_set_to,
+                'scheming_choices': scheming_choices,
+                'scheming_required': scheming_required,
+                'canada_validate_generate_uuid':
+                    validators.canada_validate_generate_uuid,
+                'canada_tags': validators.canada_tags,
+                'geojson_validator': validators.geojson_validator,
+                'email_validator': validators.email_validator,
+                'canada_copy_from_org_name':
+                    validators.canada_copy_from_org_name,
+                'canada_non_related_required':
+                    validators.canada_non_related_required,
+                'if_empty_set_to':
+                    validators.if_empty_set_to,
             }
         )
         return validators_dict
