@@ -3724,7 +3724,7 @@
         "field_name": "data_series_issue_identification",
         "label": {
           "en": "Series Issue ID",
-          "fr": "Numéro de publication de la série"
+          "fr": "Numéro de publication de la série "
         },
         "fluent_form_label": {
           "en": {
