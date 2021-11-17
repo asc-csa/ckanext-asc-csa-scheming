@@ -142,7 +142,7 @@
       "values": {
         "field_name": "collection",
         "label": {
-          "en": "Collection Type",
+          "en": "Collection type",
           "fr": "Type de collection"
         },
         "help_text": {
@@ -160,8 +160,8 @@
           },
           {
             "label": {
-              "en": "Non-Spatial",
-              "fr": "Non spatiales"
+              "en": "Non-spatial data",
+              "fr": "Données non spatiales"
             },
             "value": "primary"
           },
@@ -181,22 +181,22 @@
           },
           {
             "label": {
-              "en": "Geospatial",
-              "fr": "Géospatiales"
+              "en": "Geospatial data",
+              "fr": "Données géospatiales"
             },
             "value": "geogratis"
           },
           {
             "label": {
-              "en": "Open Maps",
-              "fr": "Cartes Ouvertes"
+              "en": "Open maps",
+              "fr": "Cartes ouvertes"
             },
             "value": "fgp"
           },
           {
             "label": {
               "en": "Publications",
-              "fr": "Publication"
+              "fr": "Publications"
             },
             "value": "publication"
           },
@@ -216,14 +216,14 @@
           },
           {
             "label": {
-              "en": "Reports Tabled in Parliament",
+              "en": "Reports tabled in Parliament",
               "fr": "Rapports déposés au Parlement"
             },
             "value": "parliament_report"
           },
           {
             "label": {
-              "en": "Question Period Notes",
+              "en": "Question period notes",
               "fr": "Notes pour la période des questions"
             },
             "value": "question_period"
@@ -244,8 +244,8 @@
           },
           {
             "label": {
-              "en": "Federated Open Data",
-              "fr": "Fédérée de données"
+              "en": "Federated data",
+              "fr": "Données fédérées"
             },
             "value": "federated"
           }
@@ -284,7 +284,7 @@
           }
         },
         "form_placeholder": {
-          "en": "Canada Border Wait Times",
+          "en": "Canada border wait times",
           "fr": "Temps d’attente à la frontière"
         },
         "required": true,
@@ -327,11 +327,11 @@
         },
         "fluent_form_label": {
           "en": {
-            "en": "Publisher - Organization Name at Publication (English)",
+            "en": "Publisher - Organization name at publication (English)",
             "fr": "Éditeur - Nom de l’organisation lors de la publication (anglais)"
           },
           "fr": {
-            "en": "Publisher - Organization Name at Publication (French)",
+            "en": "Publisher - Organization name at publication (French)",
             "fr": "Éditeur - Nom de l’organisation lors de la publication (français)"
           }
         },
@@ -349,7 +349,8 @@
         "form_snippet": "fluent_text.html",
         "display_snippet": "fluent_text.html",
         "error_snippet": "fluent_text.html",
-        "output_validators": "fluent_text_output"
+        "output_validators": "fluent_text_output",
+        "form_languages": ["en", "fr"]
       }
     },
     {
@@ -357,16 +358,16 @@
       "values": {
         "field_name": "org_section",
         "label": {
-          "en": "Publisher - Organization Section Name",
+          "en": "Publisher - Organization section name",
           "fr": "Éditeur - Organisation - Nom de la section"
         },
         "fluent_form_label": {
           "en": {
-            "en": "Publisher - Organization Section Name (English)",
+            "en": "Publisher - Organization section name (English)",
             "fr": "Éditeur - Organisation - Nom de la section (anglais)"
           },
           "fr": {
-            "en": "Publisher - Organization Section Name (French)",
+            "en": "Publisher - Organization section name (French)",
             "fr": "Éditeur - Organisation - Nom de la section (français)"
           }
         },
@@ -384,7 +385,8 @@
         "display_snippet": "fluent_text.html",
         "error_snippet": "fluent_text.html",
         "validators": "fluent_text",
-        "output_validators": "fluent_text_output"
+        "output_validators": "fluent_text_output",
+        "form_languages": ["en", "fr"]
       }
     },
     {
@@ -442,8 +444,8 @@
       "values": {
         "field_name": "maintainer_email",
         "label": {
-          "en": "Contact Email",
-          "fr": "Personne-ressource"
+          "en": "Contact email",
+          "fr": "Personne-ressource "
         },
         "help_text": {
           "en": "The contact person's email for the dataset",
@@ -500,7 +502,7 @@
         "field_name": "keywords",
         "label": {
           "en": "Keywords",
-          "fr": "Mots clés"
+          "fr": "Mots clés "
         },
         "fluent_form_label": {
           "en": {
@@ -542,7 +544,7 @@
         "field_name": "subject",
         "label": {
           "en": "Subject",
-          "fr": "Sujet"
+          "fr": "Sujet "
         },
         "help_text": {
           "en": "The topic of the content of the dataset. You may select or deselect multiple subjects (Ctrl+Click)",
@@ -576,7 +578,7 @@
           },
           {
             "label": {
-              "en": "Economics and Industry",
+              "en": "Economics and industry",
               "fr": "Économie et industrie"
             },
             "replaces": [
@@ -586,7 +588,7 @@
           },
           {
             "label": {
-              "en": "Education and Training",
+              "en": "Education and training",
               "fr": "Éducation et formation"
             },
             "replaces": [
@@ -606,7 +608,7 @@
           },
           {
             "label": {
-              "en": "Government and Politics",
+              "en": "Government and politics",
               "fr": "Gouvernement et vie politique"
             },
             "replaces": [
@@ -616,7 +618,7 @@
           },
           {
             "label": {
-              "en": "Health and Safety",
+              "en": "Health and safety",
               "fr": "Santé et sécurité"
             },
             "replaces": [
@@ -626,7 +628,7 @@
           },
           {
             "label": {
-              "en": "History and Archaeology",
+              "en": "History and archaeology",
               "fr": "Histoire et archéologie"
             },
             "replaces": [
@@ -636,7 +638,7 @@
           },
           {
             "label": {
-              "en": "Information and Communications",
+              "en": "Information and communications",
               "fr": "Information et communication"
             },
             "replaces": [
@@ -656,7 +658,7 @@
           },
           {
             "label": {
-              "en": "Language and Linguistics",
+              "en": "Language and linguistics",
               "fr": "Langue et linguistique"
             },
             "replaces": [
@@ -686,7 +688,7 @@
           },
           {
             "label": {
-              "en": "Nature and Environment",
+              "en": "Nature and environment",
               "fr": "Nature et environnement"
             },
             "replaces": [
@@ -716,7 +718,7 @@
           },
           {
             "label": {
-              "en": "Society and Culture",
+              "en": "Society and culture",
               "fr": "Société et culture"
             },
             "replaces": [
@@ -726,7 +728,7 @@
           },
           {
             "label": {
-              "en": "Science and Technology",
+              "en": "Science and technology",
               "fr": "Sciences et technologie"
             },
             "replaces": [
@@ -748,12 +750,124 @@
       }
     },
     {
+      "preset_name": "canada_project",
+      "values": {
+        "field_name": "project",
+        "label": {
+          "en": "Project",
+          "fr": "Projet"
+        },
+        "help_text": {
+          "en": "The topic of the content of the dataset. You may select or deselect multiple subjects (Ctrl+Click)",
+          "fr": "Le sujet du contenu du jeu de données. Vous pouvez sélectionner ou désélectionner de multiples sujets (Ctrl+Clic)"
+        },
+        "required": true,
+        "form_snippet": "multiple_select.html",
+        "display_snippet": "list_inline.html",
+        "validators": "scheming_multiple_choice",
+        "output_validators": "scheming_multiple_choice_output",
+        "choices": [
+          {
+            "label": {
+              "en": "Atmospheric science ",
+              "fr": "Science atmosphérique"
+            },
+            "replaces": [
+              "AA"
+            ],
+            "value": "atmospheric_sci"
+          },
+
+          {
+            "label": {
+              "en": "Earth observation",
+              "fr": "Observation terrestre"
+            },
+            "replaces": [
+              "earth_observation"
+            ],
+            "value": "earth_observation"
+          },
+          {
+            "label": {
+              "en": "Life sciences",
+              "fr": "Science de la vie"
+            },
+            "replaces": [
+              "AA"
+            ],
+            "value": "life_sciences"
+          },
+          {
+            "label": {
+              "en": "Space astronomy",
+              "fr": "Astronomie spatiale"
+            },
+            "replaces": [
+              "AA"
+            ],
+            "value": "space_astronomy"
+          },
+          {
+            "label": {
+              "en": "Space environment/Space weather",
+              "fr": "Environnement spatiale/météo spatiale"
+            },
+            "replaces": [
+              "AA"
+            ],
+            "value": "space_environment"
+          },
+          {
+            "label": {
+              "en": "Space exploration",
+              "fr": "Exploration spatiale"
+            },
+            "replaces": [
+              "AA"
+            ],
+            "value": "space_exploration"
+          },
+          {
+            "label": {
+              "en": "Telemetry",
+              "fr": "Télémétrie"
+            },
+            "replaces": [
+              "AA"
+            ],
+            "value": "telemetry"
+          },
+          {
+            "label": {
+              "en": "Other",
+              "fr": "Autre"
+            },
+            "replaces": [
+              "AA"
+            ],
+            "value": "other"
+          },
+          {
+            "label": {
+              "en": "Unlisted",
+              "fr": "Non répertorié"
+            },
+            "replaces": [
+              "AA"
+            ],
+            "value": "unlisted"
+          }
+        ]
+      }
+    },
+    {
       "preset_name": "canada_audience",
       "values": {
         "field_name": "audience",
         "label": {
           "en": "Audience",
-          "fr": "Audience"
+          "fr": "Audience "
         },
         "help_text": {
           "en": "A description of the audience or group of people for whom the described dataset is intended or useful. You may select or deselect multiple options (Ctrl+Click)",
@@ -3166,7 +3280,7 @@
           "fr": "Date de fin de la période couverte par le jeu de données (AAAA-MM-JJ)"
         },
         "label": {
-          "en": "Time Period Coverage End",
+          "en": "Time period coverage end",
           "fr": "Couverture de la période de temps - date de fin"
         },
         "form_snippet": "date.html",
@@ -3183,8 +3297,8 @@
           "fr": "Fréquence à laquelle les changements et les ajouts sont apportés au jeu de données initial"
         },
         "label": {
-          "en": "Maintenance and Update Frequency",
-          "fr": "Fréquence d'entretien et de mise à jour"
+          "en": "Maintenance and update frequency",
+          "fr": "Fréquence d'entretien et de mise à jour "
         },
         "required": true,
         "form_include_blank_choice": true,
@@ -3364,8 +3478,8 @@
       "values": {
         "field_name": "date_published",
         "label": {
-          "en": "Date Published",
-          "fr": "Date de publication"
+          "en": "Date published",
+          "fr": "Date de publication "
         },
         "help_text": {
           "en": "The date of issuance (e.g., publication) of the dataset (YYYY-MM-DD)",
@@ -3399,7 +3513,7 @@
       "values": {
         "field_name": "date_expires",
         "label": {
-          "en": "Date Expires",
+          "en": "Date expires",
           "fr": "Date de expiration"
         },
         "help_text": {
@@ -3466,7 +3580,7 @@
         "field_name": "program_page_url",
         "label": {
           "en": "Homepage",
-          "fr": "URL de la page d'accueil"
+          "fr": "URL de la page d'accueil "
         },
         "fluent_form_label": {
           "en": {
@@ -3499,33 +3613,102 @@
         "form_languages": ["en", "fr"]
       }
     },
+
+    {
+    "preset_name": "link_language",
+    "values": {
+      "field_name": "link_language",
+      "label": {
+        "en": "Homepage Link Language",
+        "fr": "Langue de la page d'accueil"
+      },
+      "help_text": {
+        "en": "Is the external homepage language bilingual",
+        "fr": "Est-ce que la page d'accueil externe est bilingue"
+      },
+      "required": false,
+      "form_snippet": "multiple_select.html",
+      "display_snippet": "list_inline.html",
+      "validators": "scheming_multiple_choice",
+      "output_validators": "scheming_multiple_choice_output",
+      "choices": [
+        {
+          "value": "english",
+          "label": {
+            "en": "English only",
+            "fr": "Anglais seulement"
+          }
+
+        },
+        {
+          "value": "french",
+          "label": {
+            "en": "French only",
+            "fr": "Francais seulement"
+          }
+
+        },
+
+        {
+          "value": "bilingual",
+          "label": {
+            "en": "Bilingual",
+            "fr": "Bilingue"
+          }
+
+        }]
+        }
+      },
+
+      {
+      "preset_name": "preview",
+      "values": {
+        "field_name": "preview",
+        "label": {
+          "en": "Data Visualisation",
+          "fr": "Visualisation des données"
+        },
+        "help_text": {
+          "en": "This attribute will allow the access to the previsualisation of the data when set to 'true'. This feature is experimental ",
+          "fr": "Cet attribut activera la prévisualisation des données lorsque la valeur est 'vrai'. Cette fonctionnalité est expérimentale"
+        },
+        "required": false,
+        "form_snippet": "multiple_select.html",
+        "display_snippet": "list_inline.html",
+        "validators": "scheming_multiple_choice",
+        "output_validators": "scheming_multiple_choice_output",
+        "choices": [
+          {
+            "value": "True",
+            "label": {
+              "en": "True",
+              "fr": "Vrai"
+            }
+
+          },
+          {
+            "value": "False",
+            "label": {
+              "en": "False",
+              "fr": "Faux"
+            }
+
+          }]
+          }
+        },
     {
       "preset_name": "canada_data_series_name",
       "values": {
         "field_name": "data_series_name",
         "label": {
-          "en": "Series Title",
-          "fr": "Nom de la série"
+          "en": "Data Series Name",
+          "fr": "Nom de la série de données "
         },
-        "fluent_form_label": {
-          "en": {
-            "en": "Series Title (English)",
-            "fr": "Nom de la série (anglais)"
-          },
-          "fr": {
-            "en": "Series Title (French)",
-            "fr": "Nom de la série (français)"
-          }
-        },
-        "fluent_help_text": {
-          "en": {
-            "en": "The English name of the series, or aggregate dataset, of which the dataset is a part",
-            "fr": "Nom anglais de la série, ou du jeu de données globales, dont le jeu de données fait partie"
-          },
-          "fr": {
-            "en": "The French name of the series, or aggregate dataset, of which the dataset is a part",
-            "fr": "Nom français de la série, ou du jeu de données globales, dont le jeu de données fait partie"
-          }
+
+        "help_text": {
+            "en": "The name of the data series to which this dataset belongs (if applicable).",
+            "fr": "Le nom de la série de données à laquelle cet ensemble de données appartient (le cas échéant)."
+
         },
         "form_snippet": "fluent_text.html",
         "display_snippet": "fluent_text.html",
@@ -3541,7 +3724,7 @@
         "field_name": "data_series_issue_identification",
         "label": {
           "en": "Series Issue ID",
-          "fr": "Numéro de publication de la série"
+          "fr": "Numéro de publication de la série "
         },
         "fluent_form_label": {
           "en": {
@@ -3822,8 +4005,8 @@
           },
           {
             "label": {
-              "en": "Climatology Meteorology Atmosphere",
-              "fr": "Climatologie Météorologie Atmosphère"
+              "en": "Climatology,meteorology, and atmosphere",
+              "fr": "Climatologie,météorologie et atmosphère"
             },
             "value": "climatology_meterology_atmosphere"
           },
@@ -3850,7 +4033,7 @@
           },
           {
             "label": {
-              "en": "Geoscientific Information",
+              "en": "Geoscientific information",
               "fr": "Information géoscientifique"
             },
             "value": "geoscientific_information"
@@ -3864,14 +4047,14 @@
           },
           {
             "label": {
-              "en": "Imagery Base Maps Earth Cover",
+              "en": "Imagery base maps earth cover",
               "fr": "Imagerie carte de base couverture terrestre"
             },
             "value": "imagery_base_maps_earth_cover"
           },
           {
             "label": {
-              "en": "Intelligence Military",
+              "en": "Military intelligence ",
               "fr": "Renseignements militaires"
             },
             "value": "intelligence_military"
@@ -3927,8 +4110,8 @@
           },
           {
             "label": {
-              "en": "Utilities Communication",
-              "fr": "Services communication"
+              "en": "Communication utilities",
+              "fr": "Services de communication"
             },
             "value": "utilities_communication"
           }
@@ -4174,7 +4357,7 @@
         ],
         "form_snippet": "select.html",
         "display_snippet": "select.html",
-        "validators": "scheming_required scheming_choices"
+        "validators": "scheming_required"
       }
     },
     {
@@ -4224,7 +4407,7 @@
         ],
         "form_snippet": "select.html",
         "display_snippet": "select.html",
-        "validators": "ignore_missing scheming_choices"
+        "validators": "ignore_missing"
       }
     },
     {
@@ -4232,7 +4415,7 @@
       "values": {
         "field_name": "date_published",
         "label": {
-          "en": "Date Published",
+          "en": "Date published",
           "fr": "Date de publication"
         },
         "help_text": {
@@ -4249,7 +4432,7 @@
       "preset_name": "canada_resource_type",
       "values": {
         "label": {
-          "en": "Resource Type",
+          "en": "Resource type",
           "fr": "Type de content"
         },
         "help_text": {
@@ -4280,14 +4463,14 @@
           },
           {
             "label": {
-              "en": "Agreement - Contractual Material",
+              "en": "Agreement - Contractual material",
               "fr": "Entente - contenu contractuel"
             },
             "value": "contractual_material"
           },
           {
             "label": {
-              "en": "Agreement - Intergovernmental Agreement",
+              "en": "Agreement - Intergovernmental agreement",
               "fr": "Entente - entente intergouvernementale"
             },
             "value": "intergovernmental_agreement"
@@ -4301,7 +4484,7 @@
           },
           {
             "label": {
-              "en": "Agreement - Memorandum of Understanding",
+              "en": "Agreement - Memorandum of understanding",
               "fr": "Entente - protocole d’entente"
             },
             "value": "memorandum_of_understanding"
@@ -4364,14 +4547,14 @@
           },
           {
             "label": {
-              "en": "Assessment - Audit",
+              "en": "Assessment - audit",
               "fr": "Évaluation - audit"
             },
             "value": "audit"
           },
           {
             "label": {
-              "en": "Assessment - Environmental Assessment",
+              "en": "Assessment - Environmental assessment",
               "fr": "Évaluation - évaluation environnementale"
             },
             "value": "environmental_assessment"
@@ -4385,7 +4568,7 @@
           },
           {
             "label": {
-              "en": "Assessment - Gap Assessment",
+              "en": "Assessment - Gap assessment",
               "fr": "Évaluation - évaluation des écarts"
             },
             "value": "gap_assessment"
@@ -4406,7 +4589,7 @@
           },
           {
             "label": {
-              "en": "Assessment - Risk Assessment",
+              "en": "Assessment - Risk assessment",
               "fr": "Évaluation - évaluation des risques"
             },
             "value": "risk_assessment"
@@ -4420,21 +4603,21 @@
           },
           {
             "label": {
-              "en": "Briefing Material",
+              "en": "Briefing material",
               "fr": "Matériel de breffage"
             },
             "value": "briefing_material"
           },
           {
             "label": {
-              "en": "Briefing Material - Backgrounder",
+              "en": "Briefing material - Backgrounder",
               "fr": "Matériel de breffage - précis d’information"
             },
             "value": "backgrounder"
           },
           {
             "label": {
-              "en": "Business Case",
+              "en": "Business case",
               "fr": "Analyse de rentabilisation"
             },
             "value": "business_case"
@@ -4455,7 +4638,7 @@
           },
           {
             "label": {
-              "en": "Conference Proceedings",
+              "en": "Conference proceedings",
               "fr": "Actes de la conférence"
             },
             "value": "conference_proceedings"
@@ -4483,7 +4666,7 @@
           },
           {
             "label": {
-              "en": "Correspondence - Ministerial Correspondence",
+              "en": "Correspondence - Ministerial correspondence",
               "fr": "Correspondance - correspondance ministérielle"
             },
             "value": "ministerial_correspondence"
@@ -4532,42 +4715,42 @@
           },
           {
             "label": {
-              "en": "Fact Sheet",
+              "en": "Fact sheet",
               "fr": "Feuille de renseignements"
             },
             "value": "fact_sheet"
           },
           {
             "label": {
-              "en": "Financial Material",
+              "en": "Financial material",
               "fr": "Document financier"
             },
             "value": "financial_material"
           },
           {
             "label": {
-              "en": "Financial Material - Budget",
+              "en": "Financial material - Budget",
               "fr": "Document financier - budget"
             },
             "value": "budget"
           },
           {
             "label": {
-              "en": "Financial Material - Funding Proposal",
+              "en": "Financial material - Funding proposal",
               "fr": "Document financier - proposition de financement"
             },
             "value": "funding_proposal"
           },
           {
             "label": {
-              "en": "Financial Material - Invoice",
+              "en": "Financial material - Invoice",
               "fr": "Document financier - facture"
             },
             "value": "invoice"
           },
           {
             "label": {
-              "en": "Financial Material - Financial Statement",
+              "en": "Financial material - Financial statement",
               "fr": "Document financier - états financiers"
             },
             "value": "financial_statement"
@@ -4588,7 +4771,7 @@
           },
           {
             "label": {
-              "en": "Geospatial Material",
+              "en": "Geospatial material",
               "fr": "Matériel géospatial"
             },
             "value": "geospatial_material"
@@ -4602,98 +4785,98 @@
           },
           {
             "label": {
-              "en": "Guide - Best Practices",
+              "en": "Guide - Best practices",
               "fr": "Guide - pratiques exemplaires"
             },
             "value": "best_practices"
           },
           {
             "label": {
-              "en": "Intellectual Property Statement",
+              "en": "Intellectual property statement",
               "fr": "Énoncé sur la propriété intellectuelle"
             },
             "value": "intellectual_property_statement"
           },
           {
             "label": {
-              "en": "Legal Complaint",
+              "en": "Legal complaint",
               "fr": "Plainte légale"
             },
             "value": "legal_complaint"
           },
           {
             "label": {
-              "en": "Legal Opinion",
+              "en": "Legal opinion",
               "fr": "Avis juridique"
             },
             "value": "legal_opinion"
           },
           {
             "label": {
-              "en": "Legislation and Regulations",
+              "en": "Legislation and regulations",
               "fr": "Lois et règlements"
             },
             "value": "legislation_and_regulations"
           },
           {
             "label": {
-              "en": "Licenses and Permits",
+              "en": "Licenses and permits",
               "fr": "Licences et permis"
             },
             "value": "licenses_and_permits"
           },
           {
             "label": {
-              "en": "Literary Material",
+              "en": "Literary material",
               "fr": "Ouvrages littéraires"
             },
             "value": "literary_material"
           },
           {
             "label": {
-              "en": "Media Release - Statement",
+              "en": "Media release - Statement",
               "fr": "Communiqué de presse - énoncé"
             },
             "value": "statement"
           },
           {
             "label": {
-              "en": "Media Release",
+              "en": "Media release",
               "fr": "Communiqué de presse"
             },
             "value": "media_release"
           },
           {
             "label": {
-              "en": "Meeting Material",
+              "en": "Meeting material",
               "fr": "Documentation de la réunion"
             },
             "value": "meeting_material"
           },
           {
             "label": {
-              "en": "Meeting Material - Agenda",
+              "en": "Meeting material - Agenda",
               "fr": "Documentation de la réunion - programme"
             },
             "value": "agenda"
           },
           {
             "label": {
-              "en": "Meeting Material - Minutes",
+              "en": "Meeting material - Minutes",
               "fr": "Documentation de la réunion - procès-verbaux"
             },
             "value": "minutes"
           },
           {
             "label": {
-              "en": "Memorandum to Cabinet",
+              "en": "Memorandum to cabinet",
               "fr": "Mémoire au Cabinet"
             },
             "value": "memorandum_to_cabinet"
           },
           {
             "label": {
-              "en": "Multimedia Resource",
+              "en": "Multimedia resource",
               "fr": "Ressource multimédia"
             },
             "value": "multimedia_resource"
@@ -4707,7 +4890,7 @@
           },
           {
             "label": {
-              "en": "Organizational Description",
+              "en": "Organizational description",
               "fr": "Description organisationnelle"
             },
             "value": "organizational_description"
@@ -4721,14 +4904,14 @@
           },
           {
             "label": {
-              "en": "Plan - Business Plan",
+              "en": "Plan - Business plan",
               "fr": "Plan - plan d’activités"
             },
             "value": "business_plan"
           },
           {
             "label": {
-              "en": "Plan - Strategic Plan",
+              "en": "Plan - Strategic plan",
               "fr": "Plan - plan stratégique"
             },
             "value": "strategic_plan"
@@ -4742,7 +4925,7 @@
           },
           {
             "label": {
-              "en": "Policy - White Paper",
+              "en": "Policy - White paper",
               "fr": "Politique - livre blanc"
             },
             "value": "white_paper"
@@ -4770,35 +4953,35 @@
           },
           {
             "label": {
-              "en": "Project Material",
+              "en": "Project material",
               "fr": "Documents du Projet"
             },
             "value": "project_material"
           },
           {
             "label": {
-              "en": "Project Material - Project Charter",
+              "en": "Project material - Project charter",
               "fr": "Documents du projet - charte de projet"
             },
             "value": "project_charter"
           },
           {
             "label": {
-              "en": "Project Material - Project Plan",
+              "en": "Project material - Project plan",
               "fr": "Documents du projet - plan du projet"
             },
             "value": "project_plan"
           },
           {
             "label": {
-              "en": "Project Material - Project Proposal",
+              "en": "Project material - Project proposal",
               "fr": "Documents du projet - proposition de projet"
             },
             "value": "project_proposal"
           },
           {
             "label": {
-              "en": "Promotional Material",
+              "en": "Promotional material",
               "fr": "Documents promotionnels"
             },
             "value": "promotional_material"
@@ -4819,8 +5002,8 @@
           },
           {
             "label": {
-              "en": "Record of Decision",
-              "fr": "Compte Rendu des Décisions"
+              "en": "Record of decision",
+              "fr": "Compte rendu des décisions"
             },
             "value": "record_of_decision"
           },
@@ -4833,49 +5016,49 @@
           },
           {
             "label": {
-              "en": "Report - Annual Report",
+              "en": "Report - Annual report",
               "fr": "Rapport - rapport annuel"
             },
             "value": "annual_report"
           },
           {
             "label": {
-              "en": "Report - Interim Report",
+              "en": "Report - Interim report",
               "fr": "Rapport - rapport d’étape"
             },
             "value": "interim_report"
           },
           {
             "label": {
-              "en": "Research Proposal",
+              "en": "Research proposal",
               "fr": "Projet de recherche"
             },
             "value": "research_proposal"
           },
           {
             "label": {
-              "en": "Resource List",
+              "en": "Resource list",
               "fr": "Liste de référence"
             },
             "value": "resource_list"
           },
           {
             "label": {
-              "en": "Routing Slip",
+              "en": "Routing slip",
               "fr": "Bordereau d’acheminement"
             },
             "value": "routing_slip"
           },
           {
             "label": {
-              "en": "Social Media Resource - Blog Entry",
+              "en": "Social media resource - Blog entry",
               "fr": "Ressources des médias sociaux - entrée de blogue"
             },
             "value": "blog_entry"
           },
           {
             "label": {
-              "en": "Sound Recording",
+              "en": "Sound recording",
               "fr": "Enregistrement sonore"
             },
             "value": "sound_recording"
@@ -4924,7 +5107,7 @@
           },
           {
             "label": {
-              "en": "Terms of Reference",
+              "en": "Terms of reference",
               "fr": "Mandat"
             },
             "value": "terms_of_reference"
@@ -4938,7 +5121,7 @@
           },
           {
             "label": {
-              "en": "Training Material",
+              "en": "Training material",
               "fr": "Matériel didactique"
             },
             "value": "training_material"
@@ -4959,7 +5142,7 @@
           },
           {
             "label": {
-              "en": "Web Service",
+              "en": "Web service",
               "fr": "Service Web"
             },
             "value": "web_service"
@@ -5586,6 +5769,7 @@
           "en": "This is the character set of the resource",
           "fr": "Nom complet de la norme de codage des caractères utilisée pour le ressource"
         },
+        "required": false,
         "form_snippet": "select.html",
         "form_restrict_choices_to": [
           "UTF-8",
@@ -5595,6 +5779,12 @@
         "validators": "scheming_required scheming_choices",
         "form_panel": "resource",
         "choices": [
+          {
+            "value": "",
+            "replaces": [
+              ""
+            ]
+          },
           {
             "value": "UTF-8",
             "replaces": [
@@ -6365,7 +6555,7 @@
           {
             "label": {
               "en": "No linguistic content; Not applicable",
-              "fr": "pas de contenu linguistique; non applicable"
+              "fr": "pas de contenu linguistique; sans objet"
             },
             "value": "zxx"
           }
@@ -6375,6 +6565,76 @@
         "output_validators": "scheming_multiple_choice_output"
       }
     },
+    {
+    "preset_name": "science_admin",
+    "values": {
+      "field_name": "scientific_data",
+      "label": {
+        "en": "Data category",
+        "fr": "Catégorie des données"
+      },
+      "help_text": {
+        "en": "True if the dataset contains scientific data ; e.g : ",
+        "fr": "Vrai si le jeu de données contient des données Scientifiques"
+      },
+      "required": false,
+      "form_snippet": "multiple_select.html",
+      "display_snippet": "list_inline.html",
+      "validators": "scheming_multiple_choice",
+      "output_validators": "scheming_multiple_choice_output",
+      "choices": [
+        {
+          "value": "True",
+          "label": {
+            "en" :"Science",
+            "fr" : "Sciences"
+            }
+        },
+        {
+          "value": "False",
+          "label": {
+            "en" :"Management/operations",
+            "fr" : "Gestion/opérations"
+        }
+      }
+      ]
+        }
+      },
+      {
+      "preset_name": "portal_type",
+      "values": {
+        "field_name": "portal_data_info",
+        "label": {
+          "en": "Portal type",
+          "fr": "Type de portail"
+        },
+        "help_text": {
+          "en": "Differentiates between Open Data and Open Information.",
+          "fr": "Fait la distinction entre les données ouvertes et l'information ouverte."
+        },
+        "required": true,
+        "form_snippet": "multiple_select.html",
+        "display_snippet": "list_inline.html",
+        "validators": "scheming_multiple_choice",
+        "output_validators": "scheming_multiple_choice_output",
+        "choices": [
+          {
+            "value": "data",
+            "label": {
+              "en" :"Open Data",
+              "fr" : "Données ouvertes"
+              }
+          },
+          {
+            "value": "info",
+            "label": {
+              "en" :"Open Information",
+              "fr" : "Information ouverte"
+          }
+        }
+        ]
+          }
+        },
     {
       "preset_name": "canada_resource_url",
       "values": {
